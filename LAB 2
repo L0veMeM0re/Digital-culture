@@ -1,0 +1,11 @@
+#include <stdio.h> 
+#include <math.h> 
+int main()
+{
+  float z1,z2,x;
+  scanf("%f",&x);
+  z1=(sin(2*x) + sin(5*x)- sin(3*x)) / (cos(x) + 1 -(2 * sin(2*x)));
+  z2=2*(sin(x));
+    printf("%f\n",z1);
+    printf("%f",z2);
+}
