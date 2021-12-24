@@ -4,7 +4,7 @@ int main()
     int x;
     char y[20];
     scanf("%i %s", &x,y);
-    printf("%i %s", x,y);
+    printf("%i %s", x,y); #Be careful with semicolon
 
     return 0;
 }
